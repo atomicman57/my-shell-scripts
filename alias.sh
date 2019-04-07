@@ -20,3 +20,8 @@ alias ns="npm start"
 alias nt="npm run test"
 alias nb="npm run build"
 alias npmfix="rm -rf node_modules/ && rm -f package-lock.json && npm install"
+
+#Vagrant
+alias vs="ssh vagrant@localhost -p2222"
+alias vu="sudo vagrant up"
+alias vdie="sudo vagrant halt"
